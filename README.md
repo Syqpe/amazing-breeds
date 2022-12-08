@@ -4,8 +4,8 @@
      alt="Dog is smiling" width="400" height="280">
 
 This is a small app for showing amazing dog breeds. There are many different dogs and their sub-breeds, I hope you can enjoy their beauty.
-With **[GitHub action]** Size Limit will post bundle size changes as a comment
-in pull request discussion.
+
+Project architecture inspired by - [FSD](https://feature-sliced.design/)
 
 ## Development
 
