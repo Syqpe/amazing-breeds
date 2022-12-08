@@ -1,7 +1,7 @@
 # Amazing breeds
 
-<img src="https://user-images.githubusercontent.com/83192247/127578929-6149b7d2-410f-4843-aad4-c7b213fcc018.png" align="center"
-     alt="Dog is smiling" width="400" height="280">
+<img src="https://user-images.githubusercontent.com/83192247/127578929-6149b7d2-410f-4843-aad4-c7b213fcc018.png" algin="center"
+     alt="Dog is smiling" width="600" height="480">
 
 This is a small app for showing amazing dog breeds. There are many different dogs and their sub-breeds, I hope you can enjoy their beauty.
 
