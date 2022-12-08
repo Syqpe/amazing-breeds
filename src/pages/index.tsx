@@ -6,6 +6,7 @@ import { Suspense } from "@components/";
 import { Error } from "./error";
 
 const Home = lazy(() => import("./home"));
+const Whois = lazy(() => import("./whois"));
 
 const router = createBrowserRouter([
     {
@@ -16,12 +17,15 @@ const router = createBrowserRouter([
             </Suspense>
         ),
         errorElement: <Error />,
-        children: [
-            {
-                path: "whois",
-                element: <div>Kassymov Abat</div>,
-            },
-        ],
+    },
+    {
+        path: "/whois",
+        element: (
+            <Suspense>
+                <Whois />
+            </Suspense>
+        ),
+        errorElement: <Error />,
     },
 ]);
 
